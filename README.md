@@ -1,5 +1,5 @@
 # note-taking-app
 
-npm install react-boostrap boostrap react-router-dom 
+npm install react-bootstrap bootstrap react-router-dom 
 
 App.tsx : import 'bootstrap/dist/css/bootstrap.min.css';
