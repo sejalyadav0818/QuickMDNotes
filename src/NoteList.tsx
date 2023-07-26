@@ -1,4 +1,3 @@
-
 import { useMemo, useState } from "react"
 import {
   Badge,
@@ -12,8 +11,8 @@ import {
 } from "react-bootstrap"
 import { Link } from "react-router-dom"
 import ReactSelect from "react-select"
-import { Tag } from "../App"
-// import styles from "../components/NoteList.module.css"
+import { Tag } from "./App"
+import styles from "./NoteList.module.css"
 
 type SimplifiedNote = {
   tags: Tag[]
@@ -137,7 +136,7 @@ function NoteCard({ id, title, tags }: SimplifiedNote) {
     <Card
       as={Link}
       to={`/${id}`}
-      // className={`h-100 text-reset text-decoration-none ${styles.card}`}
+      className={`h-100 text-reset text-decoration-none ${styles.card}`}
     >
       <Card.Body>
         <Stack
