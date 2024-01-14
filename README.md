@@ -20,6 +20,7 @@ Before you begin, ensure you have met the following requirements:
 
 ## Installing QuickMDNotes
 
+https://dulcet-pixie-1de16a.netlify.app/
 To install QuickMDNotes, follow these steps:
 
 ```bash
@@ -35,3 +36,6 @@ npm install
 # Start the development server
 npm run dev
 
+## Deployment
+
+Experience the application live on [Netlify](https://dulcet-pixie-1de16a.netlify.app/).
