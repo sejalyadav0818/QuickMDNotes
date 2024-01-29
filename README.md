@@ -39,4 +39,4 @@ npm run dev
 
 ## Deployment
 
-Experience the application live on [Netlify](https://dulcet-pixie-1de16a.netlify.app/).
+Experience the application live on [QuickMDNotes](https://dulcet-pixie-1de16a.netlify.app/).
